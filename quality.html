@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>CBC International FZE</title>
+	<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+	<meta name="description" content="Aviation spare parts, repairs and services.">
+	<meta name="keywords" content="" />
+	<meta name="rating" content="General"/>
+	<meta name="robots" content="ALL,INDEX,FOLLOW" />
+	<meta name="revisit-after" content="1 day" />
+	<meta name="google-site-verification" content="" />
+	<link rel="stylesheet" href="blueberry.css" />
+	<style type="text/css">
+	* {
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	body {
+		background: #f0f0f0;
+		font: 14px/20px Arial, San-Serif;
+		color: #555;
+		margin: 0;
+		/*background-image: linear-gradient(blue);*/
+	}
+	h1 {
+		text-align: center;
+		font-size: 180%;
+		line-height: 120%;
+		padding: 5% 0;
+	}
+	h3 {
+		line-height: 110%;
+		padding: 5% 0;
+	}
+	p {
+		padding: 1%;
+	}
+	img {
+		text-align: center;
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+
+	#main-img {
+		height: 800px;
+		background-color: black;
+		background-image: url('airMain.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		/*box-sizing: border-box;*/
+	}
+
+	a {
+		color: #405580;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	a:hover {
+		color: #FF8C00;
+		text-decoration: underline;
+	}
+	header {
+		background: #F8F8FF;
+		width: 100%;
+		height: 80px;
+		position: fixed;	
+		top: 0;
+		left: 0;
+		z-index: 100;
+		opacity: 0.70;
+	}
+	#logo {
+		margin: 10px 20px;
+		float: left;
+		width: 113px;
+		height: 60px;
+		background: url(file:///Users/GOFMAN/Documents/CBC%20INTL%20website/cbcLogo.png) no-repeat center;
+	}
+	nav {
+		float: right;
+		padding: 20px 30px 20px 0;
+		font-size: 16px;
+	}
+	#menu-icon {
+		display: hidden;
+		width: 40px;
+		height: 40px;
+		background: url(file:///Users/GOFMAN/Documents/CBC%20INTL%20website/Menu-Icon.png) center;
+	}
+	a:hover#menu-icon {
+		border-radius: 4px 4px 0 0;
+	}
+	ul {
+		list-style: none;
+	}
+	nav ul li {
+		display: inline-block;
+		float: left;
+		padding: 10px;
+		text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	}
+	.current {
+		color: #405580;
+		text-decoration: underline;
+	}
+	.image { 
+   		position: relative; 
+   		width: 100%;
+   		text-align: center;
+	}
+	h2 { 
+   		z-index:100;
+    	position:absolute; 
+    	text-align: center;   
+    	display: inline-block;
+	    color:#FFF;
+	    font-weight: 100;
+	    font-size:44px;
+	    font-family: "Open Sans", Verdana, Arial, sans-serif;
+	    left:320px;
+	    top:540px;
+	    text-shadow: 5px 8px 10px #222;
+	}
+
+	.slides {
+		box-shadow: 0 15px 20px -12px rgba(0,0,0, .8);
+		border-radius: 10px;
+	}
+
+	.button {
+  		font-family: 'Montserrat', 'Arial Black', sans-serif;
+  		text-transform: uppercase;
+  		display: inline-block;
+	  	font-size: 18px;
+	 	padding: 12px 30px;
+	 	border-radius: 5px;
+	 	border: 2px solid #fff;
+	 	background-color: transparent;
+	  	opacity: .85;
+	  	color: #FFF;
+	  	margin-top: 35px;
+	}
+	#description {
+		margin-top: 60px;
+	}
+	#doc {
+		margin: 40px 0;
+	}
+	#content {
+		margin: 0 auto;
+		max-width: 1140px;
+		margin-top: 110px;
+	}
+	.blueberry {
+		max-width: 960px;
+		margin-top: 110px;
+	}
+	section {
+		width: 29%;
+		float: left;
+		margin: 2% 2%;
+		text-align: center;
+	}
+	.clear {
+		clear: both;
+	}
+	footer {
+		background: #333333;
+		width: 100%;
+		overflow: hidden;
+		opacity: 0.90;
+	}
+	footer p, footer h3 {
+		color: #FFF;
+	}
+	footer p a {
+		color: #FFF;
+		text-decoration: none;
+	}
+	ul.secial li {
+		display: inline;
+	}
+	ul.social li img {
+		height: 50px;
+	}
+	footer.second {
+		border-top: 1px solid #4D4E50;
+		background-color: #333333;
+		max-height: 100px;
+		text-align: center;
+		opacity: 0.95;
+	}
+
+/*--------------------MEDIA!!!------------------*/
+@media screen and (max-width: 478px) {
+	body {
+		position: absolute;
+	}
+
+}
+@media screen and (max-width: 880px) {
+	header {
+		position: absolute;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #F8F8FF;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 35%;
+		border-radius: 2px 0 2px 2px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	section {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="jquery.blueberry.js"></script>
+	<script>
+		$(window).load(function() {
+			$('.blueberry').blueberry();
+		});
+	</script>
+<link rel="icon" 
+      type="image/png" 
+      href="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/favicon.ico">
+</head>
+<body>
+	<header>
+		<a href="#" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a href="#" class="current">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Products &amp; Services</a></li>
+				<li><a href="#">Our Partners</a></li>
+				<li><a href="#">Q&amp;A</a></li>
+				<li><a href="#">Site Map</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="main-img" class="image">
+     <!--  <img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/airMain.jpg" alt="airplane" /> -->
+      <h2>Servicing Aviation Industry on EARTH<br /><a class="button" href="#">Learn More</a></h2>
+	</div>
+	<section id="description">
+		<img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/aviserv.png" alt="airplane"/>
+		<h1>Aviation Services</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a mauris ac sapien suscipit mollis. Donec lobortis magna odio, quis lacinia felis semper non. Aenean vitae rutrum diam. </p>
+	</section>
+	<section id="description">
+		<img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/spares.png" />
+		<h1>Spare Parts</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a mauris ac sapien suscipit mollis. Donec lobortis magna odio, quis lacinia felis semper non. Aenean vitae rutrum diam. </p>
+	</section>
+	<section id="description">
+		<img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/repair.png" />
+		<h1>Repairs</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a mauris ac sapien suscipit mollis. Donec lobortis magna odio, quis lacinia felis semper non. Aenean vitae rutrum diam. </p>
+	</section>
+	<div class="clear"></div>
+	<div id="doc">
+		<div id="content">
+			<div class="blueberry">
+				<ul class="slides">
+					<li><img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/air1.jpg"/></li>
+					<li><img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/air2.jpg"/></li>
+					<li><img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/air3.jpg"/></li>
+					<li><img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/air4.jpg"/></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<section>
+		<img src="http://www.w3newbie.com/wp-content/uploads/trainers.png" />
+		<h1>Huge Experience</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a mauris ac sapien suscipit mollis. Donec lobortis magna odio, quis lacinia felis semper non. Aenean vitae rutrum diam. </p>
+	</section>
+	<section>
+		<img src="http://www.w3newbie.com/wp-content/uploads/location.png" />
+		<h1>Local UAE Market Support</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a mauris ac sapien suscipit mollis. Donec lobortis magna odio, quis lacinia felis semper non. Aenean vitae rutrum diam. </p>
+	</section>
+	<section>
+		<img src="http://www.w3newbie.com/wp-content/uploads/check.png" />
+		<h1>We Are Certified</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a mauris ac sapien suscipit mollis. Donec lobortis magna odio, quis lacinia felis semper non. Aenean vitae rutrum diam. </p>
+	</section>
+	<div class="clear"></div>
+	<section id="partner">
+		<h1>PARTNERS SLIDING HERE</h1>
+	</section>
+	<footer>
+		<section>
+			<h3><b>CBC International FZE</b></h3>
+			<p><b>+97143366080</b><br><br>
+				42516 Sharjah, UAE<br>
+				Hamriyah Free Zone<br>
+				info@cbcfze.com</p>
+		</section>
+		<section>
+			<h3>Membership and Certifications HERE</h3>
+		</section>
+		<section>
+			<img src="file:///Users/GOFMAN/Documents/CBC%20INTL%20website/logo1.png"/>
+		</section>
+	</footer>
+	<footer class="second">
+		<p>©Copyright - CBC International FZE, 2015.</p>
+		<p>Website Developed by Gofman Entertainment.</p>
+	</footer>
+</body>
+</html>
